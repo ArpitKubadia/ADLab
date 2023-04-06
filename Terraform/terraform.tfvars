@@ -2,12 +2,12 @@
 # See 'variables.tf' for definitions
 
 # Required
-resource-group       = "resourcegroupname"
-ip-whitelist         = ["1.2.3.4/32", "8.8.8.0/24"]
+resource-group       = "AD_EH_CTF"
+ip-whitelist         = ["1.2.3.4/32", "8.8.8.0/24","128.220.0.0/16"]
 
 # Optional (defaults are shown)
-timezone             = "Central Europe Standard Time"
-domain-name-label    = "thehackerish"
+timezone             = "Eastern Standard Time"
+domain-name-label    = "eh_ctf_group5"
 domain-dns-name      = "th.local"
 windows-user         = "cooten"
 linux-user           = "cooten"

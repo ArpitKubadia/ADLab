@@ -6,7 +6,7 @@ variable "resource-group" {
 variable "timezone" {
   type        = string
   description = "The timezone of the lab VMs."
-  default     = "Central Europe Standard Time"
+  default     = "Eastern Standard Time"
 }
 
 variable "ip-whitelist" {
