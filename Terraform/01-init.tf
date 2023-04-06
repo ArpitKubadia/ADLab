@@ -34,6 +34,6 @@ resource "random_string" "linuxpass" {
 
 
 # Get a reference to the existing resource group
-data "azurerm_resource_group" "eh_ctf-rg" {
+data "azurerm_resource_group" "eh-ctf-rg" {
   name = var.resource-group
 }

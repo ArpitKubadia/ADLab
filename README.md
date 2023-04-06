@@ -1,5 +1,5 @@
 # ADLab
-_By [@eh_ctf](https://twitter.com/eh_ctf)_
+_By [@eh-ctf](https://twitter.com/eh-ctf)_
 Video tutorial on https://youtu.be/H76WtmP2Je4
 
 _Based heavily on the work of [@chvancooten](https://twitter.com/chvancooten), Ansible role for Elastic Security deployment by [@nodauf](https://twitter.com/nodauf)_

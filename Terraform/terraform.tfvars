@@ -2,12 +2,12 @@
 # See 'variables.tf' for definitions
 
 # Required
-resource-group       = "AD_EH_CTF"
+resource-group       = "AD_eh-ctf"
 ip-whitelist         = ["1.2.3.4/32", "8.8.8.0/24","128.220.0.0/16"]
 
 # Optional (defaults are shown)
 timezone             = "Eastern Standard Time"
-domain-name-label    = "eh_ctf"
+domain-name-label    = "eh-ctf"
 domain-dns-name      = "th.local"
 windows-user         = "cooten"
 linux-user           = "cooten"
