@@ -39,10 +39,10 @@ resource "null_resource" "ansible-provisioning" {
 
   # All VMs have to be up before provisioning can be initiated
   depends_on = [
-    azurerm_windows_virtual_machine.eh_ctf_group5-vm-dc,
-    azurerm_windows_virtual_machine.eh_ctf_group5-vm-winserv2019,
-    azurerm_windows_virtual_machine.eh_ctf_group5-vm-windows10,
-    azurerm_linux_virtual_machine.eh_ctf_group5-vm-hackbox,
+    azurerm_windows_virtual_machine.eh_ctf-vm-dc,
+    azurerm_windows_virtual_machine.eh_ctf-vm-winserv2019,
+    azurerm_windows_virtual_machine.eh_ctf-vm-windows10,
+    azurerm_linux_virtual_machine.eh_ctf-vm-hackbox,
   ]
 
   triggers = {
@@ -51,7 +51,7 @@ resource "null_resource" "ansible-provisioning" {
 
   connection {
     type  = "ssh"
-    host  = azurerm_public_ip.eh_ctf_group5-ip.ip_address
+    host  = azurerm_public_ip.eh_ctf-ip.ip_address
     user  = var.linux-user
     password = random_string.linuxpass.result
   }

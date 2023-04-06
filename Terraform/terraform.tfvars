@@ -7,7 +7,7 @@ ip-whitelist         = ["1.2.3.4/32", "8.8.8.0/24","128.220.0.0/16"]
 
 # Optional (defaults are shown)
 timezone             = "Eastern Standard Time"
-domain-name-label    = "eh_ctf_group5"
+domain-name-label    = "eh_ctf"
 domain-dns-name      = "th.local"
 windows-user         = "cooten"
 linux-user           = "cooten"

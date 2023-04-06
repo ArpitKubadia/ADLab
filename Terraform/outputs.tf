@@ -1,10 +1,10 @@
 output "public-ip" {
-  value = azurerm_public_ip.eh_ctf_group5-ip.ip_address
+  value = azurerm_public_ip.eh_ctf-ip.ip_address
   description = "The public IP address used to connect to the lab."
 }
 
 output "public-ip-dns" {
-  value = azurerm_public_ip.eh_ctf_group5-ip.fqdn
+  value = azurerm_public_ip.eh_ctf-ip.fqdn
   description = "The public DNS name used to connect to the lab."
 }
 
