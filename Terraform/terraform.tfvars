@@ -3,7 +3,7 @@
 
 # Required
 resource-group       = "AD_EH_CTF"
-ip-whitelist         = [""]
+ip-whitelist         = []
 
 # Optional (defaults are shown)
 timezone             = "Eastern Standard Time"
