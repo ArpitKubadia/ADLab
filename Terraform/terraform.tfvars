@@ -3,7 +3,7 @@
 
 # Required
 resource-group       = "AD_EH_CTF"
-ip-whitelist         = []
+ip-whitelist         = ["1.2.3.4/32", "8.8.8.0/24","128.220.0.0/16", "2607:f8b0:4000:8000::/64", "2607:f8b0:4000:9000::/64", "2607:f8b0:4000:a000::/64", "2607:f8b0:4000:b000::/64", "2607:f8b0:4000:c000::/64", "2607:f8b0:4000:d000::/64", "2607:f8b0:4000:e000::/64", "2607:f8b0:4000:f000::/64"]
 
 # Optional (defaults are shown)
 timezone             = "Eastern Standard Time"
